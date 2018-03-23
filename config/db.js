@@ -1,5 +1,5 @@
-let mongoose = require('mongoose');
-let db = mongoose.connect('mongodb://localhost:27017/cookbook');
+const mongoose = require('mongoose');
+const db = mongoose.connect('mongodb://localhost:27017/cookbook');
 
 //On Connection
 mongoose.connection.on('connected', () => {

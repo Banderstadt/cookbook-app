@@ -1,5 +1,5 @@
-let mongoose = require('mongoose'); 
-let RecipeSchema = new mongoose.Schema({
+const mongoose = require('mongoose'); 
+const RecipeSchema = new mongoose.Schema({
   name: {
     type: String,
     trim: true
