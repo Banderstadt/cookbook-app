@@ -5,10 +5,12 @@ const RecipeSchema = new mongoose.Schema({
     trim: true
   },
   ingredients: {
-    type: String
+    type: String,
+    trim: true
   },
   description: {
-    type: String
+    type: String,
+    trim: true
   }}, {
     timestamps: {
       createdAt: 'created_at',
